@@ -1,5 +1,17 @@
 /** Nav Menu **/
 
+::selection {
+	background: #ffb7b7; /* Safari */
+	}
+::-moz-selection {
+	background: #ffb7b7; /* Firefox */
+}
+[contenteditable]{
+    border:1px solid black;
+    display:inline-block;
+    width: 150px;
+}
+
 .top-bar {
    position: fixed;
    z-index: 100;
