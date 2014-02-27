@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connor Finnerty | Illustration / Animation</title>
+  </head>
+  <body>
+
+<!-- Example Work -->
+        
+          <div class="extitle">
+          <div class="row top-div">
+          <h2 class="big-title">Illustration & Animation</h2></div>
+          </div>
+
+          <div class="ex1">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>Tout Tourne (Swinging Electrons Remix)</h3>
+                <h5>Intended Immigration</h5>
+                <p>“Fantastic job. Freelancer was super professional, responsive and creative. Great experience!”</p>
+              </div>
+              <div class="large-8 columns">
+            <div class="flex-video"> <iframe src="http://youtube.com/embed/zueGRlXKBio" width="400" height="225" frameborder="0"></iframe> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex2">
+            <div class="row">
+              
+              <div class="large-4 columns">
+                <h3>Hand Drawn Illustration</h3>
+                <h5></h5>
+                <p>For use in both web and print. Mediums include pen / pencil, watercolor and acrylic paints.</p>
+              </div>
+              <div class="large-8 columns">
+            <%= link_to image_tag("ai-ex2.jpg", alt: "Banner") %>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex3">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>Digital Illustration</h3>
+                <h5>Adobe Illustrator</h5>
+                <p>Experience creating illustrations in scalable vector format for web and preparing digital copies for printers</p>
+              </div>
+              <div class="large-8 columns">
+              <%= link_to image_tag("ai-ex3.jpg", alt: "Banner") %>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex4">
+            <div class="row">
+              <div class="large-8 columns">
+              <%= link_to image_tag("services/12-22-north.png", alt: "Banner") %>
+              </div>
+              <div class="large-4 columns">
+                <h3>Smart Resource Institute Power Animations</h3>
+                <h5>Burlington, Vermont</h5>
+                <p>Real time data visualization and diagrams for energy education</p>
+              </div>
+            </div>
+          </div>
+
+<!-- Services Description -->
+          <div class="services">
+          <div class="row">
+            <div class="large-12 columns">
+              <h2>Services:</h2>
+              <h4>
+              <li>After Effects and stop motion animation</li>
+              <li>Hand-drawn and digital illustrations</li>
+              <li>Real time data visualizations</li>
+              <li>Web animation (SVG / CSS)</li>
+              </h4>
+            </div>              
+            <hr>
+          </div>
+          </div>
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>

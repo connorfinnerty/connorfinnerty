@@ -1,0 +1,195 @@
+/** Nav Menu **/
+
+.top-bar {
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+}
+
+.top-div {
+	padding-top: 65px;
+}
+
+.big-title {
+	font-size: 5em;
+}
+
+.categories img {
+	padding-bottom: 25px;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'oranienbaumregular';
+    src: url('Oranienbaum-Regular-webfont.eot');
+    src: url('Oranienbaum-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oranienbaum-Regular-webfont.woff') format('woff'),
+         url('Oranienbaum-Regular-webfont.ttf') format('truetype'),
+         url('Oranienbaum-Regular-webfont.svg#oranienbaumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+p, h1, h2, h3, h4, h5, h6, label, a { font-family: 'oranienbaumregular', Arial, sans-serif; }
+
+
+/** Footer **/ 
+
+#footer {
+	background: #2A2F36;
+	width: 100%;
+	padding-top: 75px;
+	padding-bottom: 75px;
+
+}
+
+.footer h3{
+	color: white;
+}
+
+.footer h4{
+	color: white;
+}
+
+.footer h5{
+	color: white;
+}
+
+.footer h6{
+	color: white;
+}
+
+.footer p{
+	color: white;
+}
+
+.footer form{
+	color: white;
+}
+
+.footer button{
+    display: block;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+
+
+.contact-button {
+	text-align: center;
+	font-style: none;
+	padding-top: 75px;
+	margin: auto;
+}
+
+#contact-circle {
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+#about-me {
+	background: #edf0f5;
+}
+
+.services {
+	background: #2A2F36;
+}
+
+.services li{
+	list-style: none;
+}
+
+
+.services div{
+padding: 25px;
+}
+
+.services div div{
+	background: #edf0f5;
+	margin: auto;
+	text-align: center;
+}
+
+
+.services li:hover {
+	background: white;
+}
+
+#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+/** Example Work **/
+
+.extitle {
+	background: #edf0f5;
+}
+
+.ex1, .ex3, .ex5 {
+	background: #F5F5F5;
+}
+
+.ex2, .ex4 {
+	background: white;
+}
+
+.ex1, .ex2, .ex3, .ex4, .ex5 p {
+	font-style: italic;
+}
+
+
+.ex1, .ex2, .ex3, .ex4, .ex5 img{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	vertical-align: middle;
+}
+
+
+/** Front Page **/
+
+.service-title {
+	text-align: center;
+	height: 100px;
+}
+
+#front-banner {
+	background-image:url(banner.jpg) ;
+	width: 100%;
+}
+
+#banner-text{
+padding: 25px;
+background-color:rgba(0,0,0,0.6);
+}
+
+#banner-text h2{
+	text-align: center;
+	color: white;
+}
+
+#banner-text h4{
+	text-align: center;
+	color: white;
+}
+
+img {
+    display: block;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+#categories h4{
+	text-align: center;
+}
+
+

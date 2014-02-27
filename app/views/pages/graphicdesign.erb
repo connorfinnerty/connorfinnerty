@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connor Finnerty | Graphic Design</title>
+  </head>
+
+
+
+<!-- Example Work -->
+        
+          <div class="row top-div">
+          <h2 class="big-title">Graphic Design</h2>
+          </div>
+          <div class="ex1">
+            <div class="row">
+              <div class="large-4 columns">
+              <h3>Russian Tea Room Advertisement</h3>
+              <h5>Manhattan, New York</h5>
+              <p>Commissioned to create full page magazine advertisement for NYC restaurant The Russain Tea Room 
+              </br>
+              “I am absolutely delighted with Connor's work. He began work immediately and didn't stop (I was on deadline) until it was done. Creative and totally professional, he is someone I will definitely use in the future and someone I recommend to anyone without hesitation. ” </p>
+              </div>
+              <div class="large-8 columns">
+            <%=  image_tag("gd-ex1.jpg", alt: "Banner") %>
+              </div>
+            </div>
+          </div>
+
+ 
+          <div class="ex2">
+            <div class="row">
+              <div class="large-8 columns">
+            <%= image_tag("gd-ex2.png", alt: "Banner") %>
+              </div>
+              <div class="large-4 columns">
+                <h3>Criffel Environmental Logo</h3>
+                <h5>Edinburgh, United Kingdom</h5>
+                <p>“First class. No issues! I would highly recommend Connor. He listened to what I wanted and when required came up with some very original ideas. He was very patient and communicated very well. The logo designed is better than I imagined. Pleasures doing business. Very highly recommended!”</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex3">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>Model Hideout Logo and Branding</h3>
+                <h5>Melbourne, Australia</h5>
+                <p>“Connor was a pleasure to work with, he was very helpful and great with leading us to achieve our desired outcome. Highly recommend!”</p>
+              </div>
+              <div class="large-8 columns">
+            <%= image_tag("services/modelhideout_2.jpg", alt: "Banner") %>
+            </div>
+          </div>
+          </div>
+
+          <div class="ex4">
+            <div class="row">
+              <div class="large-8 columns">
+            <%= image_tag("services/pregnancy_1.jpg", alt: "Pregnancy Book") %>
+              </div>
+              <div class="large-4 columns">
+                <h3>Lesson Ladder Book Series - Icons and Portraits</h3>
+                <h5>Cambridge, Massachusetts</h5>
+                <p>Commissioned to create original icons and digital caricatures for a pregnancy and parenting book series</p>
+            </div>
+          </div>
+          </div>
+
+
+          <div class="ex5">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>ACE NYC Gala Invitation</h3>
+                <h5>New York City</h5>
+                <p>Commissioned to create ornate invitation for the 2013 ACE Gala fundraiser at the Russian Tea Room in NYC.</p>
+            </div>
+              <div class="large-8 columns">
+            <%= image_tag("services/ace.jpg", alt: "Pregnancy Book") %>
+              </div>
+          </div>
+          </div>
+
+
+<!-- Services Description -->
+          
+          <div class="services">
+            <div class="row">
+              <div class="large-12 columns">
+              <h2>Services:</h2>
+              <h4>
+              <ul>
+              <li>Hand-drawn and digital illustration</li>
+              <li>Print and web graphics</li>
+              <li>Logos and branding</li>
+              <li>Animation and motion graphics</li>
+              </ul>
+              </h4>
+              </div>            
+            </div>
+          </div>
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <%= javascript_include_tag "application" %>
+
+</html>

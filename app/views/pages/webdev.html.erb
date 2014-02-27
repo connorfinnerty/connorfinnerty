@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connor Finnerty | Web Development</title>
+  </head>
+  <body>
+
+<!-- Example Work -->
+        
+          <div class="row top-div">
+          <h2 class="big-title">Web Development</h2></div>
+          <div class="ex1">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>Duane Merrill Auctioneer Website</h3>
+                <h5>Williston, Vermont</h5>
+                <p></p>
+              </div>
+              <div class="large-8 columns">
+            <%= image_tag("services/merrills_1.jpg", alt: "Banner") %>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex2">
+            <div class="row">
+              <div class="large-8 columns">
+            <%= image_tag("services/med1green_2.jpg", alt: "Banner") %>
+              </div>
+              <div class="large-4 columns">
+                <h3>MED-1 Green Website</h3>
+                <h5>Charlotte, North Carolina</h5>
+                <p>Created a website to attract investors during 2012 Democratic National Convention</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ex3">
+            <div class="row">
+              <div class="large-4 columns">
+                <h3>YMCA AYP Website Collateral Graphics</h3>
+                <h5>Springfield, Massachusetts</h5>
+                <p>Created collateral graphics (icons and pattern) to coincide with new logo</p>
+              </div>
+              <div class="large-8 columns">
+            <%= image_tag("services/ayp_2.png", alt: "Banner") %>
+            </div>
+          </div>
+          </div>
+
+          <div class="ex4">
+            <div class="row">
+              <div class="large-8 columns">
+            <%= image_tag("services/bastet.jpg", alt: "Banner") %>
+              </div>
+              <div class="large-4 columns">
+                <h3>Novel Launch Map</h3>
+                <h5>Dallas, Texas</h5>
+                <p>"Working with Connor was an excellent experience. I'm very happy with work he did and the communication as we nailed down the design. I would definitely hire Connor again."</p>
+            </div>
+          </div>
+          </div>
+
+<!-- Services Description -->
+        <div class="services">
+          <div class="row">
+            <div class="large-12 columns">
+            <h2>Services:</h2>
+            <h4>
+            <ul>
+            <li>Simple websites for small businesses</li>
+            <li>Custom web development</li>
+            <li>Responsive design for mobile browsers</li>
+            <li>Intuitive and attractive user interface</li>
+            <li>Real time data visualizations</li>
+            <li>Web animation</li>
+            </ul>
+            </h4>
+            </div>            
+          </div>
+        </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>
