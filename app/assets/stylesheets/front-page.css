@@ -31,22 +31,11 @@
 }
 
 /* Fonts */
-@font-face {
-    font-family: 'oranienbaumregular';
-    src: url('Oranienbaum-Regular-webfont.eot');
-    src: url('Oranienbaum-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Oranienbaum-Regular-webfont.woff') format('woff'),
-         url('Oranienbaum-Regular-webfont.ttf') format('truetype'),
-         url('Oranienbaum-Regular-webfont.svg#oranienbaumregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
- 
 p, h1, h2, h3, h4, h5, h6, label, a { font-family: 'oranienbaumregular', Arial, sans-serif; }
 
 
-/** Footer **/ 
+/** Footer **/
 
 #footer {
 	background: #2A2F36;
