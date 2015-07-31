@@ -19,7 +19,11 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: mysql
+  database: connorfinnerty_production
+  encoding: utf8
+  reconnect: false
   pool: 5
-  timeout: 5000
+  username: rails_db_user
+  password: br34th31n!
+  host: mysql.connorfinnerty.com
